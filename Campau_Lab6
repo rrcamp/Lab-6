@@ -1,0 +1,19 @@
+var temp;
+var converted;
+var unit="f";
+
+
+function convertTemp (temp){
+if (unit===f) {
+  function convertFToC (temp) {
+  converted = ( (temp-32) / 1.8 ) ;
+}
+
+} else {
+  function convertCTOF (temp) {
+  converted = ( (1.8 * temp) -32);
+}
+
+}
+  console.log (converted);
+}
